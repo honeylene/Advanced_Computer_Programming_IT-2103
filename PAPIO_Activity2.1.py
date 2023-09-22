@@ -1,0 +1,11 @@
+fathers_name = str (input("Father's Name: "))
+birthplace = str (input("Birthpace: "))
+birthmonth = int (input("Birthday (month): "))
+birthday = int (input("Birthday (day): "))
+birthyear = int (input ("Birthyear: "))
+age = (2023 - birthyear)
+
+print ("Father's name: " + fathers_name)
+print ("Birthplace: " + birthplace)
+print ("Birthday: " , birthmonth , birthday , birthyear)
+print ("Age: " , age)
